@@ -13,10 +13,10 @@ grid = []
 tl_x, tl_y = -1, -1
 br_x, br_y = -1, -1
 
-blk_x_offset = 0
-blk_y_offset = 0
-blk_x_size = 0
-blk_y_size = 0
+blk_x_offset = -1
+blk_y_offset = -1
+blk_x_size = -1
+blk_y_size = -1
 
 CLR_TOLERANCE = 40
 
@@ -226,12 +226,12 @@ def greedy_solve():
 					print("Stopping...")
 					global grid, tl_x, tl_y, br_x, br_y, blk_x_size, blk_y_size, blk_x_offset, blk_y_offset
 					grid = []
-					tl_x = 0
-					tl_y = 0
-					br_x = 0
-					br_y = 0
-					blk_x_size = 0
-					blk_y_size = 0
+					tl_x = -1
+					tl_y = -1
+					br_x = -1
+					br_y = -1
+					blk_x_size = -1
+					blk_y_size = -1
 					return
 				if check_if_valid(x, y):
 					click(x, y)
