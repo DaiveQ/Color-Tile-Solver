@@ -6,8 +6,8 @@ Solver for the Color Tile game found here Solver the the Color Tile game on [gam
 
 # Usage
 1. Start program (with dependencies installed)
-1. Hover over upper left of playable area of grid and press backtick/tilda key (\ or \` key)
-1. Hover over bottom right of playable area of grid and press backtick/tilda key
+1. Hover over upper left of playable area of grid and press backtick ( \` ) key (the key with the tilda on US QWERTY)
+1. Hover over bottom right of playable area of grid and press backtick key
 1. Don't touch mouse and let program solve
 1. Press escape to stop program at any time (can continue from step 2 to restart solver without restarting program)
 
